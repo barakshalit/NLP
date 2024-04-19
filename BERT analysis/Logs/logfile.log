@@ -1,0 +1,301 @@
+2024-03-01 22:01:23 - INFO - Setting file paths for songs and outputs
+2024-03-01 22:01:23 - INFO - Setting file paths for songs and outputs - COMPLETED
+2024-03-01 22:01:23 - INFO - Setting up BERT model
+2024-03-01 22:01:25 - INFO - Setting up BERT model - COMPLETED
+2024-03-01 22:01:25 - INFO - Starting iterating over DOR HEMEDINA songs, modeling and saving outputs
+2024-03-01 22:01:25 - INFO - Starting to iterate over songs in folder: ./Songs/Dor Hamedina Songs
+2024-03-01 22:01:25 - INFO - Starting to model song: avraham shlonski - avoi avi.txt
+2024-03-01 22:01:27 - INFO - Starting to model song: avraham shlonski - avoi avi.txt - COMPLETED
+2024-03-01 22:01:27 - INFO - Starting to model song: avraham shlonski - sufa.txt
+2024-03-01 22:01:27 - INFO - Starting to model song: avraham shlonski - sufa.txt - COMPLETED
+2024-03-01 22:01:27 - INFO - Starting to model song: avraham shlonski - zemer.txt
+2024-03-01 22:01:28 - INFO - Starting to model song: avraham shlonski - zemer.txt - COMPLETED
+2024-03-01 22:01:28 - INFO - Starting to model song: avraham shlonski -yom acharon.txt
+2024-03-01 22:01:28 - INFO - Starting to model song: avraham shlonski -yom acharon.txt - COMPLETED
+2024-03-01 22:01:28 - INFO - Starting to model song: itzhak katzanelson - gilu haglilim.txt
+2024-03-01 22:01:29 - INFO - Starting to model song: itzhak katzanelson - gilu haglilim.txt - COMPLETED
+2024-03-01 22:01:29 - INFO - Starting to model song: itzhak katzanelson - ma yafim halilot be knaan.txt
+2024-03-01 22:01:29 - INFO - Starting to model song: itzhak katzanelson - ma yafim halilot be knaan.txt - COMPLETED
+2024-03-01 22:01:29 - INFO - Starting to model song: itzhak katzanelson - yehudim rokdim.txt
+2024-03-01 22:01:30 - INFO - Starting to model song: itzhak katzanelson - yehudim rokdim.txt - COMPLETED
+2024-03-01 22:01:30 - INFO - Starting to model song: itzhak katznelson - neula he dalti .txt
+2024-03-01 22:01:30 - INFO - Starting to model song: itzhak katznelson - neula he dalti .txt - COMPLETED
+2024-03-01 22:01:30 - INFO - Starting to model song: natan alterman - al titnu lahem rovim.txt
+2024-03-01 22:01:32 - INFO - Starting to model song: natan alterman - al titnu lahem rovim.txt - COMPLETED
+2024-03-01 22:01:32 - INFO - Starting to model song: natan alterman - echad min hagachal.txt
+2024-03-01 22:01:33 - INFO - Starting to model song: natan alterman - echad min hagachal.txt - COMPLETED
+2024-03-01 22:01:33 - INFO - Starting to model song: natan alterman - leil hanaya.txt
+2024-03-01 22:01:34 - INFO - Starting to model song: natan alterman - leil hanaya.txt - COMPLETED
+2024-03-01 22:01:34 - INFO - Starting to model song: natan alterman - tozeret haarez.txt
+2024-03-01 22:01:35 - INFO - Starting to model song: natan alterman - tozeret haarez.txt - COMPLETED
+2024-03-01 22:01:35 - INFO - Starting to model song: natan yonatan - acharei haseara.txt
+2024-03-01 22:01:36 - INFO - Starting to model song: natan yonatan - acharei haseara.txt - COMPLETED
+2024-03-01 22:01:36 - INFO - Starting to model song: natan yonatan - gal acharon.txt
+2024-03-01 22:01:36 - INFO - Starting to model song: natan yonatan - gal acharon.txt - COMPLETED
+2024-03-01 22:01:36 - INFO - Starting to model song: natan yonatan - oli ze hashalom.txt
+2024-03-01 22:01:37 - INFO - Starting to model song: natan yonatan - oli ze hashalom.txt - COMPLETED
+2024-03-01 22:01:37 - INFO - Iterating over songs in folder ./Songs/Dor Hamedina Songs - COMPLETED
+2024-03-01 22:01:37 - INFO - Modeling DOR HAMEDINA songs - COMPLETED
+2024-03-01 22:01:37 - INFO - Starting iterating over PRESENT songs, modeling and saving outputs
+2024-03-01 22:01:37 - INFO - Starting to iterate over songs in folder: ./Songs/Present Songs
+2024-03-01 22:01:37 - INFO - Starting to model song: aviv gefen - haim leyot bach meoav.txt
+2024-03-01 22:01:37 - INFO - Starting to model song: aviv gefen - haim leyot bach meoav.txt - COMPLETED
+2024-03-01 22:01:37 - INFO - Starting to model song: aviv gefen - leilot levanim.txt
+2024-03-01 22:01:38 - INFO - Starting to model song: aviv gefen - leilot levanim.txt - COMPLETED
+2024-03-01 22:01:38 - INFO - Starting to model song: aviv gefen - machar.txt
+2024-03-01 22:01:39 - INFO - Starting to model song: aviv gefen - machar.txt - COMPLETED
+2024-03-01 22:01:39 - INFO - Starting to model song: aviv gefen - onot.txt
+2024-03-01 22:01:40 - INFO - Starting to model song: aviv gefen - onot.txt - COMPLETED
+2024-03-01 22:01:40 - INFO - Starting to model song: eden hason - madlika li hakol.txt
+2024-03-01 22:01:41 - INFO - Starting to model song: eden hason - madlika li hakol.txt - COMPLETED
+2024-03-01 22:01:41 - INFO - Starting to model song: eden hason - metapsim al hakirot.txt
+2024-03-01 22:01:42 - INFO - Starting to model song: eden hason - metapsim al hakirot.txt - COMPLETED
+2024-03-01 22:01:42 - INFO - Starting to model song: eden hason - shemishu yaazor oti.txt
+2024-03-01 22:01:43 - INFO - Starting to model song: eden hason - shemishu yaazor oti.txt - COMPLETED
+2024-03-01 22:01:43 - INFO - Starting to model song: eden hason - shkiut adumot.txt
+2024-03-01 22:01:44 - INFO - Starting to model song: eden hason - shkiut adumot.txt - COMPLETED
+2024-03-01 22:01:44 - INFO - Starting to model song: noa kirel - pantera.txt
+2024-03-01 22:01:45 - INFO - Starting to model song: noa kirel - pantera.txt - COMPLETED
+2024-03-01 22:01:45 - INFO - Starting to model song: noa kirel - provokativit.txt
+2024-03-01 22:01:47 - INFO - Starting to model song: noa kirel - provokativit.txt - COMPLETED
+2024-03-01 22:01:47 - INFO - Starting to model song: noa kirel - shlosha banot.txt
+2024-03-01 22:01:48 - INFO - Starting to model song: noa kirel - shlosha banot.txt - COMPLETED
+2024-03-01 22:01:48 - INFO - Starting to model song: noa kirel - trilili tralala.txt
+2024-03-01 22:01:50 - INFO - Starting to model song: noa kirel - trilili tralala.txt - COMPLETED
+2024-03-01 22:01:50 - INFO - Starting to model song: static ve ben el - at lo hayevet li klum.txt
+2024-03-01 22:01:52 - INFO - Starting to model song: static ve ben el - at lo hayevet li klum.txt - COMPLETED
+2024-03-01 22:01:52 - INFO - Starting to model song: static ve ben el - kvish hahof.txt
+2024-03-01 22:01:54 - INFO - Starting to model song: static ve ben el - kvish hahof.txt - COMPLETED
+2024-03-01 22:01:54 - INFO - Starting to model song: static ve ben el - silsulim.txt
+2024-03-01 22:01:55 - INFO - Starting to model song: static ve ben el - silsulim.txt - COMPLETED
+2024-03-01 22:01:55 - INFO - Starting to model song: static ve ben el - zahav.txt
+2024-03-01 22:01:57 - INFO - Starting to model song: static ve ben el - zahav.txt - COMPLETED
+2024-03-01 22:01:57 - INFO - Starting to model song: tuna - ani kan lishbor.txt
+2024-03-01 22:01:58 - INFO - Starting to model song: tuna - ani kan lishbor.txt - COMPLETED
+2024-03-01 22:01:58 - INFO - Starting to model song: tuna - rock 30.txt
+2024-03-01 22:02:01 - INFO - Starting to model song: tuna - rock 30.txt - COMPLETED
+2024-03-01 22:02:01 - INFO - Starting to model song: tuna - scharchoret.txt
+2024-03-01 22:02:03 - INFO - Starting to model song: tuna - scharchoret.txt - COMPLETED
+2024-03-01 22:02:03 - INFO - Starting to model song: tuna - ya 2.txt
+2024-03-01 22:02:05 - INFO - Starting to model song: tuna - ya 2.txt - COMPLETED
+2024-03-01 22:02:05 - INFO - Iterating over songs in folder ./Songs/Present Songs - COMPLETED
+2024-03-01 22:02:05 - INFO - Modeling PRESENT songs - COMPLETED
+2024-04-10 17:27:45 - INFO - Setting file paths for songs and outputs
+2024-04-10 17:27:45 - INFO - Setting file paths for songs and outputs - COMPLETED
+2024-04-10 17:27:45 - INFO - Setting up BERT model
+2024-04-10 17:39:55 - INFO - Setting file paths for songs and outputs
+2024-04-10 17:39:55 - INFO - Setting file paths for songs and outputs - COMPLETED
+2024-04-10 17:39:55 - INFO - Setting up BERT model
+2024-04-10 17:41:26 - INFO - Setting file paths for songs and outputs
+2024-04-10 17:41:26 - INFO - Setting file paths for songs and outputs - COMPLETED
+2024-04-10 17:41:26 - INFO - Setting up BERT model
+2024-04-10 17:41:36 - INFO - Setting up BERT model - COMPLETED
+2024-04-10 17:41:36 - INFO - Starting iterating over DOR HEMEDINA songs, modeling and saving outputs
+2024-04-10 17:41:36 - INFO - Starting to iterate over songs in folder: ./BERT analysis/Songs/Dor Hamedina Songs
+2024-04-10 17:41:36 - INFO - Starting to model song: avraham shlonski - avoi avi.txt
+2024-04-10 17:41:38 - INFO - Starting to model song: avraham shlonski - avoi avi.txt - COMPLETED
+2024-04-10 17:41:38 - INFO - Starting to model song: avraham shlonski - sufa.txt
+2024-04-10 17:41:39 - INFO - Starting to model song: avraham shlonski - sufa.txt - COMPLETED
+2024-04-10 17:41:39 - INFO - Starting to model song: avraham shlonski - zemer.txt
+2024-04-10 17:41:39 - INFO - Starting to model song: avraham shlonski - zemer.txt - COMPLETED
+2024-04-10 17:41:39 - INFO - Starting to model song: avraham shlonski -yom acharon.txt
+2024-04-10 17:41:40 - INFO - Starting to model song: avraham shlonski -yom acharon.txt - COMPLETED
+2024-04-10 17:41:40 - INFO - Starting to model song: itzhak katzanelson - gilu haglilim.txt
+2024-04-10 17:41:40 - INFO - Starting to model song: itzhak katzanelson - gilu haglilim.txt - COMPLETED
+2024-04-10 17:41:40 - INFO - Starting to model song: itzhak katzanelson - ma yafim halilot be knaan.txt
+2024-04-10 17:41:41 - INFO - Starting to model song: itzhak katzanelson - ma yafim halilot be knaan.txt - COMPLETED
+2024-04-10 17:41:41 - INFO - Starting to model song: itzhak katzanelson - yehudim rokdim.txt
+2024-04-10 17:41:41 - INFO - Starting to model song: itzhak katzanelson - yehudim rokdim.txt - COMPLETED
+2024-04-10 17:41:41 - INFO - Starting to model song: itzhak katznelson - neula he dalti .txt
+2024-04-10 17:41:42 - INFO - Starting to model song: itzhak katznelson - neula he dalti .txt - COMPLETED
+2024-04-10 17:41:42 - INFO - Starting to model song: natan alterman - al titnu lahem rovim.txt
+2024-04-10 17:41:44 - INFO - Starting to model song: natan alterman - al titnu lahem rovim.txt - COMPLETED
+2024-04-10 17:41:44 - INFO - Starting to model song: natan alterman - echad min hagachal.txt
+2024-04-10 17:41:45 - INFO - Starting to model song: natan alterman - echad min hagachal.txt - COMPLETED
+2024-04-10 17:41:45 - INFO - Starting to model song: natan alterman - leil hanaya.txt
+2024-04-10 17:41:47 - INFO - Starting to model song: natan alterman - leil hanaya.txt - COMPLETED
+2024-04-10 17:41:47 - INFO - Starting to model song: natan alterman - tozeret haarez.txt
+2024-04-10 17:41:48 - INFO - Starting to model song: natan alterman - tozeret haarez.txt - COMPLETED
+2024-04-10 17:41:48 - INFO - Starting to model song: natan yonatan - acharei haseara.txt
+2024-04-10 17:41:48 - INFO - Starting to model song: natan yonatan - acharei haseara.txt - COMPLETED
+2024-04-10 17:41:48 - INFO - Starting to model song: natan yonatan - gal acharon.txt
+2024-04-10 17:41:48 - INFO - Starting to model song: natan yonatan - gal acharon.txt - COMPLETED
+2024-04-10 17:41:48 - INFO - Starting to model song: natan yonatan - oli ze hashalom.txt
+2024-04-10 17:41:49 - INFO - Starting to model song: natan yonatan - oli ze hashalom.txt - COMPLETED
+2024-04-10 17:41:49 - INFO - Iterating over songs in folder ./BERT analysis/Songs/Dor Hamedina Songs - COMPLETED
+2024-04-10 17:41:49 - INFO - Modeling DOR HAMEDINA songs - COMPLETED
+2024-04-10 17:41:49 - INFO - Starting iterating over PRESENT songs, modeling and saving outputs
+2024-04-10 17:41:49 - INFO - Starting to iterate over songs in folder: ./BERT analysis/Songs/Present Songs
+2024-04-10 17:41:49 - INFO - Starting to model song: aviv gefen - haim leyot bach meoav.txt
+2024-04-10 17:41:49 - INFO - Starting to model song: aviv gefen - haim leyot bach meoav.txt - COMPLETED
+2024-04-10 17:41:49 - INFO - Starting to model song: aviv gefen - leilot levanim.txt
+2024-04-10 17:41:50 - INFO - Starting to model song: aviv gefen - leilot levanim.txt - COMPLETED
+2024-04-10 17:41:50 - INFO - Starting to model song: aviv gefen - machar.txt
+2024-04-10 17:41:50 - INFO - Starting to model song: aviv gefen - machar.txt - COMPLETED
+2024-04-10 17:41:50 - INFO - Starting to model song: aviv gefen - onot.txt
+2024-04-10 17:41:51 - INFO - Starting to model song: aviv gefen - onot.txt - COMPLETED
+2024-04-10 17:41:51 - INFO - Starting to model song: eden hason - madlika li hakol.txt
+2024-04-10 17:41:52 - INFO - Starting to model song: eden hason - madlika li hakol.txt - COMPLETED
+2024-04-10 17:41:52 - INFO - Starting to model song: eden hason - metapsim al hakirot.txt
+2024-04-10 17:41:54 - INFO - Starting to model song: eden hason - metapsim al hakirot.txt - COMPLETED
+2024-04-10 17:41:54 - INFO - Starting to model song: eden hason - shemishu yaazor oti.txt
+2024-04-10 17:41:55 - INFO - Starting to model song: eden hason - shemishu yaazor oti.txt - COMPLETED
+2024-04-10 17:41:55 - INFO - Starting to model song: eden hason - shkiut adumot.txt
+2024-04-10 17:41:56 - INFO - Starting to model song: eden hason - shkiut adumot.txt - COMPLETED
+2024-04-10 17:41:56 - INFO - Starting to model song: noa kirel - pantera.txt
+2024-04-10 17:41:57 - INFO - Starting to model song: noa kirel - pantera.txt - COMPLETED
+2024-04-10 17:41:57 - INFO - Starting to model song: noa kirel - provokativit.txt
+2024-04-10 17:41:59 - INFO - Starting to model song: noa kirel - provokativit.txt - COMPLETED
+2024-04-10 17:41:59 - INFO - Starting to model song: noa kirel - shlosha banot.txt
+2024-04-10 17:42:00 - INFO - Starting to model song: noa kirel - shlosha banot.txt - COMPLETED
+2024-04-10 17:42:00 - INFO - Starting to model song: noa kirel - trilili tralala.txt
+2024-04-10 17:42:02 - INFO - Starting to model song: noa kirel - trilili tralala.txt - COMPLETED
+2024-04-10 17:42:02 - INFO - Starting to model song: static ve ben el - at lo hayevet li klum.txt
+2024-04-10 17:42:04 - INFO - Starting to model song: static ve ben el - at lo hayevet li klum.txt - COMPLETED
+2024-04-10 17:42:04 - INFO - Starting to model song: static ve ben el - kvish hahof.txt
+2024-04-10 17:42:06 - INFO - Starting to model song: static ve ben el - kvish hahof.txt - COMPLETED
+2024-04-10 17:42:06 - INFO - Starting to model song: static ve ben el - silsulim.txt
+2024-04-10 17:42:08 - INFO - Starting to model song: static ve ben el - silsulim.txt - COMPLETED
+2024-04-10 17:42:08 - INFO - Starting to model song: static ve ben el - zahav.txt
+2024-04-10 17:42:09 - INFO - Starting to model song: static ve ben el - zahav.txt - COMPLETED
+2024-04-10 17:42:09 - INFO - Starting to model song: tuna - ani kan lishbor.txt
+2024-04-10 17:42:10 - INFO - Starting to model song: tuna - ani kan lishbor.txt - COMPLETED
+2024-04-10 17:42:10 - INFO - Starting to model song: tuna - rock 30.txt
+2024-04-10 17:42:13 - INFO - Starting to model song: tuna - rock 30.txt - COMPLETED
+2024-04-10 17:42:13 - INFO - Starting to model song: tuna - scharchoret.txt
+2024-04-10 17:42:14 - INFO - Starting to model song: tuna - scharchoret.txt - COMPLETED
+2024-04-10 17:42:14 - INFO - Starting to model song: tuna - ya 2.txt
+2024-04-10 17:42:16 - INFO - Starting to model song: tuna - ya 2.txt - COMPLETED
+2024-04-10 17:42:16 - INFO - Iterating over songs in folder ./BERT analysis/Songs/Present Songs - COMPLETED
+2024-04-10 17:42:16 - INFO - Modeling PRESENT songs - COMPLETED
+2024-04-11 12:17:53 - INFO - Setting file paths for songs and outputs
+2024-04-11 12:17:53 - INFO - Setting file paths for songs and outputs - COMPLETED
+2024-04-11 12:17:53 - INFO - Setting up BERT model
+2024-04-11 12:18:07 - INFO - Setting file paths for songs and outputs
+2024-04-11 12:18:07 - INFO - Setting file paths for songs and outputs - COMPLETED
+2024-04-11 12:18:07 - INFO - Setting up BERT model
+2024-04-11 12:18:09 - INFO - Setting up BERT model - COMPLETED
+2024-04-11 12:18:09 - INFO - Starting iterating over DOR HEMEDINA songs, modeling and saving outputs
+2024-04-11 12:18:09 - INFO - Starting to iterate over songs in folder: ./BERT analysis/Songs/Dor Hamedina Songs
+2024-04-11 12:18:09 - INFO - Starting to model song: avraham shlonski - avoi avi 1932.txt
+2024-04-11 12:18:11 - INFO - Starting to model song: avraham shlonski - avoi avi 1932.txt - COMPLETED
+2024-04-11 12:18:11 - INFO - Starting to model song: avraham shlonski - sufa 1943.txt
+2024-04-11 12:18:11 - INFO - Starting to model song: avraham shlonski - sufa 1943.txt - COMPLETED
+2024-04-11 12:18:11 - INFO - Starting to model song: avraham shlonski - zemer 1945.txt
+2024-04-11 12:18:12 - INFO - Starting to model song: avraham shlonski - zemer 1945.txt - COMPLETED
+2024-04-11 12:18:12 - INFO - Starting to model song: avraham shlonski -yom acharon 1939.txt
+2024-04-11 12:18:12 - INFO - Starting to model song: avraham shlonski -yom acharon 1939.txt - COMPLETED
+2024-04-11 12:18:12 - INFO - Starting to model song: hava alberstein - hahol izkor 1962.txt
+2024-04-11 12:18:13 - INFO - Starting to model song: hava alberstein - hahol izkor 1962.txt - COMPLETED
+2024-04-11 12:18:13 - INFO - Starting to model song: hirsh glick - mizmor shir lapartizanit 1942.txt
+2024-04-11 12:18:13 - INFO - Starting to model song: hirsh glick - mizmor shir lapartizanit 1942.txt - COMPLETED
+2024-04-11 12:18:13 - INFO - Starting to model song: ilanit - eretz nehederet 1991.txt
+2024-04-11 12:18:14 - INFO - Starting to model song: ilanit - eretz nehederet 1991.txt - COMPLETED
+2024-04-11 12:18:14 - INFO - Starting to model song: itzhak katzanelson - gilu haglilim 1940.txt
+2024-04-11 12:18:14 - INFO - Starting to model song: itzhak katzanelson - gilu haglilim 1940.txt - COMPLETED
+2024-04-11 12:18:14 - INFO - Starting to model song: itzhak katzanelson - ma yafim halilot be knaan 1940.txt
+2024-04-11 12:18:15 - INFO - Starting to model song: itzhak katzanelson - ma yafim halilot be knaan 1940.txt - COMPLETED
+2024-04-11 12:18:15 - INFO - Starting to model song: itzhak katznelson - neula he dalti 1940.txt
+2024-04-11 12:18:16 - INFO - Starting to model song: itzhak katznelson - neula he dalti 1940.txt - COMPLETED
+2024-04-11 12:18:16 - INFO - Starting to model song: natan alterman - al titnu lahem rovim 1934.txt
+2024-04-11 12:18:18 - INFO - Starting to model song: natan alterman - al titnu lahem rovim 1934.txt - COMPLETED
+2024-04-11 12:18:18 - INFO - Starting to model song: natan alterman - echad min hagachal 1948.txt
+2024-04-11 12:18:19 - INFO - Starting to model song: natan alterman - echad min hagachal 1948.txt - COMPLETED
+2024-04-11 12:18:19 - INFO - Starting to model song: natan alterman - eduard eduard 1940.txt
+2024-04-11 12:18:20 - INFO - Starting to model song: natan alterman - eduard eduard 1940.txt - COMPLETED
+2024-04-11 12:18:20 - INFO - Starting to model song: natan alterman - hazar 1948.txt
+2024-04-11 12:18:21 - INFO - Starting to model song: natan alterman - hazar 1948.txt - COMPLETED
+2024-04-11 12:18:21 - INFO - Starting to model song: natan alterman - leil hanaya 1948.txt
+2024-04-11 12:18:23 - INFO - Starting to model song: natan alterman - leil hanaya 1948.txt - COMPLETED
+2024-04-11 12:18:23 - INFO - Starting to model song: natan alterman - leilot beknaan 1951.txt
+2024-04-11 12:18:23 - INFO - Starting to model song: natan alterman - leilot beknaan 1951.txt - COMPLETED
+2024-04-11 12:18:23 - INFO - Starting to model song: natan alterman - of eize ruach 1950.txt
+2024-04-11 12:18:24 - INFO - Starting to model song: natan alterman - of eize ruach 1950.txt - COMPLETED
+2024-04-11 12:18:24 - INFO - Starting to model song: natan alterman - tivat hazimra 1940.txt
+2024-04-11 12:18:26 - INFO - Starting to model song: natan alterman - tivat hazimra 1940.txt - COMPLETED
+2024-04-11 12:18:26 - INFO - Starting to model song: natan alterman - tozeret haarez 1938.txt
+2024-04-11 12:18:27 - INFO - Starting to model song: natan alterman - tozeret haarez 1938.txt - COMPLETED
+2024-04-11 12:18:27 - INFO - Starting to model song: natan alterman- gdalia 1938.txt
+2024-04-11 12:18:27 - INFO - Starting to model song: natan alterman- gdalia 1938.txt - COMPLETED
+2024-04-11 12:18:27 - INFO - Starting to model song: natan elterman - elifelet 1958.txt
+2024-04-11 12:18:29 - INFO - Starting to model song: natan elterman - elifelet 1958.txt - COMPLETED
+2024-04-11 12:18:29 - INFO - Starting to model song: natan yonatan - achar haseara 1945.txt
+2024-04-11 12:18:30 - INFO - Starting to model song: natan yonatan - achar haseara 1945.txt - COMPLETED
+2024-04-11 12:18:30 - INFO - Starting to model song: natan yonatan - gal acharon 1970.txt
+2024-04-11 12:18:30 - INFO - Starting to model song: natan yonatan - gal acharon 1970.txt - COMPLETED
+2024-04-11 12:18:30 - INFO - Starting to model song: natan yonatan - oli ze hashalom 1994.txt
+2024-04-11 12:18:31 - INFO - Starting to model song: natan yonatan - oli ze hashalom 1994.txt - COMPLETED
+2024-04-11 12:18:31 - INFO - Starting to model song: neomi shemer  - achrei hashkia basade 2004.txt
+2024-04-11 12:18:31 - INFO - Starting to model song: neomi shemer  - achrei hashkia basade 2004.txt - COMPLETED
+2024-04-11 12:18:31 - INFO - Starting to model song: neomi shemer - al tishelu oti 2004.txt
+2024-04-11 12:18:32 - INFO - Starting to model song: neomi shemer - al tishelu oti 2004.txt - COMPLETED
+2024-04-11 12:18:32 - INFO - Starting to model song: shimon israeli - shalom lach artzi 1973.txt
+2024-04-11 12:18:33 - INFO - Starting to model song: shimon israeli - shalom lach artzi 1973.txt - COMPLETED
+2024-04-11 12:18:33 - INFO - Starting to model song: shimon israeli - shir hapartizanim 1943.txt
+2024-04-11 12:18:34 - INFO - Starting to model song: shimon israeli - shir hapartizanim 1943.txt - COMPLETED
+2024-04-11 12:18:34 - INFO - Starting to model song: shlomo artzi - begermania lifney hamilhama 1988.txt
+2024-04-11 12:18:35 - INFO - Starting to model song: shlomo artzi - begermania lifney hamilhama 1988.txt - COMPLETED
+2024-04-11 12:18:35 - INFO - Starting to model song: shmon israeli - haaretz hazo 1973.txt
+2024-04-11 12:18:35 - INFO - Starting to model song: shmon israeli - haaretz hazo 1973.txt - COMPLETED
+2024-04-11 12:18:35 - INFO - Starting to model song: tsharnichovski - erez moldaeti 1967.txt
+2024-04-11 12:18:36 - INFO - Starting to model song: tsharnichovski - erez moldaeti 1967.txt - COMPLETED
+2024-04-11 12:18:36 - INFO - Starting to model song: yehoram gaon - tachat ziv kochvi shamim 1943.txt
+2024-04-11 12:18:37 - INFO - Starting to model song: yehoram gaon - tachat ziv kochvi shamim 1943.txt - COMPLETED
+2024-04-11 12:18:37 - INFO - Starting to model song: yehuda poliker - efer ve avak 1988.txt
+2024-04-11 12:18:37 - INFO - Starting to model song: yehuda poliker - efer ve avak 1988.txt - COMPLETED
+2024-04-11 12:18:37 - INFO - Starting to model song: zeev jabutinski - shir asirei acho 1920.txt
+2024-04-11 12:18:38 - INFO - Starting to model song: zeev jabutinski - shir asirei acho 1920.txt - COMPLETED
+2024-04-11 12:18:38 - INFO - Starting to model song: zeev jabutinski - shir beitar 1932.txt
+2024-04-11 12:18:38 - INFO - Starting to model song: zeev jabutinski - shir beitar 1932.txt - COMPLETED
+2024-04-11 12:18:38 - INFO - Starting to model song: zeev jabutinski - shir hadegel 1926.txt
+2024-04-11 12:18:39 - INFO - Starting to model song: zeev jabutinski - shir hadegel 1926.txt - COMPLETED
+2024-04-11 12:18:39 - INFO - Starting to model song: zeev jabutinski - shir shalom 1947.txt
+2024-04-11 12:18:40 - INFO - Starting to model song: zeev jabutinski - shir shalom 1947.txt - COMPLETED
+2024-04-11 12:18:40 - INFO - Starting to model song: zeev jabutinski - smol hayarden 1928.txt
+2024-04-11 12:18:41 - INFO - Starting to model song: zeev jabutinski - smol hayarden 1928.txt - COMPLETED
+2024-04-11 12:18:41 - INFO - Iterating over songs in folder ./BERT analysis/Songs/Dor Hamedina Songs - COMPLETED
+2024-04-11 12:18:41 - INFO - Modeling DOR HAMEDINA songs - COMPLETED
+2024-04-11 12:18:41 - INFO - Starting iterating over PRESENT songs, modeling and saving outputs
+2024-04-11 12:18:41 - INFO - Starting to iterate over songs in folder: ./BERT analysis/Songs/Present Songs
+2024-04-11 12:18:41 - INFO - Starting to model song: aviv gefen - haim leyot bach meoav 1994.txt
+2024-04-11 12:18:42 - INFO - Starting to model song: aviv gefen - haim leyot bach meoav 1994.txt - COMPLETED
+2024-04-11 12:18:42 - INFO - Starting to model song: aviv gefen - leilot levanim 1999.txt
+2024-04-11 12:18:42 - INFO - Starting to model song: aviv gefen - leilot levanim 1999.txt - COMPLETED
+2024-04-11 12:18:42 - INFO - Starting to model song: aviv gefen - machar 2006.txt
+2024-04-11 12:18:43 - INFO - Starting to model song: aviv gefen - machar 2006.txt - COMPLETED
+2024-04-11 12:18:43 - INFO - Starting to model song: aviv gefen - onot 1996.txt
+2024-04-11 12:18:43 - INFO - Starting to model song: aviv gefen - onot 1996.txt - COMPLETED
+2024-04-11 12:18:43 - INFO - Starting to model song: eden hason - madlika li hakol 2021.txt
+2024-04-11 12:18:45 - INFO - Starting to model song: eden hason - madlika li hakol 2021.txt - COMPLETED
+2024-04-11 12:18:45 - INFO - Starting to model song: eden hason - metapsim al hakirot 2022.txt
+2024-04-11 12:18:46 - INFO - Starting to model song: eden hason - metapsim al hakirot 2022.txt - COMPLETED
+2024-04-11 12:18:46 - INFO - Starting to model song: eden hason - shemishu yaazor oti 2019.txt
+2024-04-11 12:18:47 - INFO - Starting to model song: eden hason - shemishu yaazor oti 2019.txt - COMPLETED
+2024-04-11 12:18:47 - INFO - Starting to model song: eden hason - shkiut adumot 2020.txt
+2024-04-11 12:18:48 - INFO - Starting to model song: eden hason - shkiut adumot 2020.txt - COMPLETED
+2024-04-11 12:18:48 - INFO - Starting to model song: noa kirel - pantera 2022.txt
+2024-04-11 12:18:49 - INFO - Starting to model song: noa kirel - pantera 2022.txt - COMPLETED
+2024-04-11 12:18:49 - INFO - Starting to model song: noa kirel - provokativit 2023.txt
+2024-04-11 12:18:51 - INFO - Starting to model song: noa kirel - provokativit 2023.txt - COMPLETED
+2024-04-11 12:18:51 - INFO - Starting to model song: noa kirel - shlosha banot 2022.txt
+2024-04-11 12:18:52 - INFO - Starting to model song: noa kirel - shlosha banot 2022.txt - COMPLETED
+2024-04-11 12:18:52 - INFO - Starting to model song: noa kirel - trilili tralala 2021.txt
+2024-04-11 12:18:54 - INFO - Starting to model song: noa kirel - trilili tralala 2021.txt - COMPLETED
+2024-04-11 12:18:54 - INFO - Starting to model song: static ve ben el - at lo hayevet li klum 2016.txt
+2024-04-11 12:18:55 - INFO - Starting to model song: static ve ben el - at lo hayevet li klum 2016.txt - COMPLETED
+2024-04-11 12:18:55 - INFO - Starting to model song: static ve ben el - kvish hahof 2016.txt
+2024-04-11 12:18:57 - INFO - Starting to model song: static ve ben el - kvish hahof 2016.txt - COMPLETED
+2024-04-11 12:18:57 - INFO - Starting to model song: static ve ben el - silsulim 2016.txt
+2024-04-11 12:18:59 - INFO - Starting to model song: static ve ben el - silsulim 2016.txt - COMPLETED
+2024-04-11 12:18:59 - INFO - Starting to model song: static ve ben el - zahav 2017.txt
+2024-04-11 12:19:00 - INFO - Starting to model song: static ve ben el - zahav 2017.txt - COMPLETED
+2024-04-11 12:19:00 - INFO - Starting to model song: tuna - ani kan lishbor 2016.txt
+2024-04-11 12:19:02 - INFO - Starting to model song: tuna - ani kan lishbor 2016.txt - COMPLETED
+2024-04-11 12:19:02 - INFO - Starting to model song: tuna - rock 30 2015.txt
+2024-04-11 12:19:04 - INFO - Starting to model song: tuna - rock 30 2015.txt - COMPLETED
+2024-04-11 12:19:04 - INFO - Starting to model song: tuna - scharchoret 2017.txt
+2024-04-11 12:19:06 - INFO - Starting to model song: tuna - scharchoret 2017.txt - COMPLETED
+2024-04-11 12:19:06 - INFO - Starting to model song: tuna - ya 2 2017.txt
+2024-04-11 12:19:08 - INFO - Starting to model song: tuna - ya 2 2017.txt - COMPLETED
+2024-04-11 12:19:08 - INFO - Iterating over songs in folder ./BERT analysis/Songs/Present Songs - COMPLETED
+2024-04-11 12:19:08 - INFO - Modeling PRESENT songs - COMPLETED
