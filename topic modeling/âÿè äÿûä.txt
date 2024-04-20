@@ -1,0 +1,11 @@
+cd 2.midule
+cd lemlda_old
+cd tagger
+tag ..\corpus ..\corpusTagged
+dot
+ dot ..\corpusTagged ..\corpusTaggedDotted -lemma
+cd..
+cd lemlda-0.1
+לפתוח את structure_extraction
+train 5 ..\corpusTaggedDotted ..\lda\model
+browse ..\lda\model 8080
