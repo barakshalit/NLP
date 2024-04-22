@@ -1,0 +1,75 @@
+import pandas as pd
+import json
+import os
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+import matplotlib.pyplot as plt
+
+# Function to extract counts of proper nouns and adjectives from JSON files
+def add_to_matrix(directory_path, label):
+    propn_list = []  # List to store counts of proper nouns
+    adj_list = []    # List to store counts of adjectives
+    labels_list = [] # List to store labels (Dor Ha-Medina or New Songs)
+    
+    # Iterate through each JSON file in the directory
+    for filename in os.listdir(directory_path):
+        filepath = os.path.join(directory_path, filename)
+        
+        # Load JSON data
+        with open(filepath, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        # Calculate counts of proper nouns and adjectives
+        propn = sum(1 for token in data['tokens'] if token['morph']['pos'] == 'PROPN')
+        adj = sum(1 for token in data['tokens'] if token['morph']['pos'] == 'ADJ')
+        
+        # Append counts and label to respective lists
+        propn_list.append(propn)
+        adj_list.append(adj)
+        labels_list.append(label)
+            
+    return propn_list, adj_list, labels_list
+
+# Directory paths for old and new songs
+directory_path_old = 'BERT analysis\\outputs\\Dor Ha-Medina BERT output'
+directory_path_new = 'BERT analysis\\outputs\\Present BERT output'
+
+# Extract counts and labels for old and new songs
+propn_old, adj_old, labels_old = add_to_matrix(directory_path_old, 'Dor Ha-Medina')
+propn_new, adj_new, labels_new = add_to_matrix(directory_path_new, 'New Songs')
+
+# Combine counts and labels
+propn = propn_old + propn_new
+adj = adj_old + adj_new
+labels = labels_old + labels_new
+
+# Create a DataFrame to store the data
+df = pd.DataFrame({
+    'propn': propn,
+    'adj': adj,
+    'labels': labels
+})
+
+# Standardize the features
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(df[['propn', 'adj']])
+
+# Apply PCA
+pca = PCA(n_components=2)
+X_pca = pca.fit_transform(X_scaled)
+
+# Add PCA components to DataFrame
+df['PC1'] = X_pca[:, 0]
+df['PC2'] = X_pca[:, 1]
+
+# Plotting
+plt.figure(figsize=(10, 8))
+for label in df['labels'].unique():
+    subset = df[df['labels'] == label]
+    plt.scatter(subset['PC1'], subset['PC2'], label=label, alpha=0.7)
+
+plt.title('PCA Visualization of Songs with Proper Nouns and Adjectives Counts')
+plt.xlabel('Principal Component 1')
+plt.ylabel('Principal Component 2')
+plt.legend()
+plt.show()

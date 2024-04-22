@@ -1,0 +1,75 @@
+import pandas as pd
+import json
+import os
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+import matplotlib.pyplot as plt
+
+def add_to_matrix(directory_path, label):
+    # Initialize lists to store the data
+    nouns_list = []
+    verbs_list = []
+    labels_list = []
+    
+    # Iterate through each JSON file in the directory
+    for filename in os.listdir(directory_path):
+        
+        filepath = os.path.join(directory_path, filename)
+            
+        # Load JSON data
+        with open(filepath, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        # Calculate the number of nouns and verbs
+        nouns = sum(1 for token in data['tokens'] if token['morph']['pos'] == 'NOUN')
+        verbs = sum(1 for token in data['tokens'] if token['morph']['pos'] == 'VERB')
+        
+        nouns_list.append(nouns)
+        verbs_list.append(verbs)
+        labels_list.append(label)
+            
+    return nouns_list, verbs_list, labels_list
+
+# Path to the directories containing the JSON files
+directory_path_old = 'BERT analysis\\outputs\\Dor Ha-Medina BERT output'
+directory_path_new = 'BERT analysis\\outputs\\Present BERT output'
+
+# Add data to the matrix
+nouns_old, verbs_old, labels_old = add_to_matrix(directory_path_old, 'Dor Ha-Medina')
+nouns_new, verbs_new, labels_new = add_to_matrix(directory_path_new, 'New Songs')
+
+# Combine the data
+nouns = nouns_old + nouns_new
+verbs = verbs_old + verbs_new
+labels = labels_old + labels_new
+
+# Create a DataFrame
+df = pd.DataFrame({
+    'nouns': nouns,
+    'verbs': verbs,
+    'labels': labels
+})
+
+# Standardize features
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(df[['nouns', 'verbs']])
+
+# Apply PCA
+pca = PCA(n_components=2)
+X_pca = pca.fit_transform(X_scaled)
+
+# Separate the data based on labels
+df['PC1'] = X_pca[:, 0]
+df['PC2'] = X_pca[:, 1]
+
+# Plot
+plt.figure(figsize=(10, 8))
+for label in df['labels'].unique():
+    subset = df[df['labels'] == label]
+    plt.scatter(subset['PC1'], subset['PC2'], label=label, alpha=0.7)
+
+plt.title('PCA Visualization of Songs with Nouns and Verbs Counts')
+plt.xlabel('Principal Component 1')
+plt.ylabel('Principal Component 2')
+plt.legend()
+plt.show()

@@ -48,8 +48,8 @@ directory_path_old = 'BERT analysis\outputs\Dor Ha-Medina BERT output'
 directory_path_new = 'BERT analysis\outputs\Present BERT output'
 
 # Create DataFrames for old and new songs
-df_old = addtomatrix(directory_path_old, 'old')
-df_new = addtomatrix(directory_path_new, 'new')
+df_old = addtomatrix(directory_path_old, 'Dor Ha-Medina')
+df_new = addtomatrix(directory_path_new, 'New Songs')
 
 # Combine the DataFrames
 df = pd.concat([df_old, df_new], ignore_index=True)
@@ -67,7 +67,7 @@ plt.figure(figsize=(10, 8))
 for label in df['label'].unique():
     plt.scatter(X_pca[df['label'] == label, 0], X_pca[df['label'] == label, 1], label=label, alpha=0.7)
 
-plt.title('PCA Visualization of Songs with Noun Counts and Avg Sentence Length')
+plt.title('PCA Visualization of Songs with Verb Counts and Avg Sentence Length')
 plt.xlabel('Principal Component 1')
 plt.ylabel('Principal Component 2')
 plt.legend()
